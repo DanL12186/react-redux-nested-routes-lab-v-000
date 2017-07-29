@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { addPet } from '../actions';
+import { Pets } from './PetsPage'
 
 class PetsNew extends Component {
   constructor(props) {
